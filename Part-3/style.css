@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family:  sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    padding: 50px;
+  }
+  
+  .leftMenu {
+    flex: 1;
+    border-right: 1px solid #ccc;
+  }
+  
+  .search{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom:1.5rem ;
+  }
+  
+  .first-title{
+    font-size: 30px;
+    color: #555;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    padding: 8px 0px;
+  }
+  .bottom{
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    width: 15rem;
+    margin-bottom: 0.5rem;
+    background-color: #ccc;
+  }
+  .second-title{
+    font-size: 30px;
+    color: #555;
+    font-weight: 300;
+    margin: 1.5rem 0rem;
+  }
+  
+  
+  .cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cat{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+  }
+  
+  .content {
+    flex: 4;
+  }
+  
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img{
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+  }
+  
+  .name{
+    font-weight: 300;
+  }
